@@ -11,4 +11,5 @@ A front-end boilerplate theme for starting React based SilverStripe projects fas
 2. Run 'npm install' via cmd line inside this theme folder to get all of the node dependancies.
 3. Change the PROXY_URL in webpack.mix.js in the theme directory to your local development SilverStripe site link for Browsersync.
 
-
+## Instructions
+Run "npm run watch" to watch for scss and javascript changes with Browsersync.
