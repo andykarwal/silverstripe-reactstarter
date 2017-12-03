@@ -6,7 +6,7 @@ mix.sass('src/scss/main.scss', 'dist/css/main.css')
    .browserSync({
       proxy: 'silverstripe-react.davidm.wgtn.cat-it.co.nz',
       notify: true,
-      open: false,
+      open: 'local',
       files: [
          '!node_modules',
          'dist/css/**/*.css',
