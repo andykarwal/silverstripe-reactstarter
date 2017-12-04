@@ -19,7 +19,8 @@
     "path": "^0.12.7",
     "popper.js": "^1.12.5",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "reactstrap": "^5.0.0-alpha.4"
   },
   "devDependencies": {
     "babel-preset-react": "^6.24.1",

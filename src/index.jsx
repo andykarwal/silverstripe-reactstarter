@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Homepage from './components/homepage/homepage';
+
 ReactDOM.render(
-  <h1>Hello!</h1>,
+  <Homepage />,
   document.getElementById('app')
 );

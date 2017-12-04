@@ -11,12 +11,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
-    <header></header>
-    <div class="container">
-      <div id="app"></div>
-      $Layout
-    </div>
-    <script src="themes/silverstripe-reactstarter/dist/js/app.js"></script>
-    <footer></footer>
+    <div id="app"></div>
+    <script src="themes/silverstripe-reactstarter/dist/index.js"></script>
   </body>
 </html>
