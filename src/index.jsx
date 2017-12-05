@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 
-import Homepage from './components/homepage/homepage';
+import App from './app';
 
 ReactDOM.render(
-  <Homepage />,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
   document.getElementById('app')
 );
