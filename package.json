@@ -12,21 +12,21 @@
     "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
   },
   "dependencies": {
-    "bootstrap": "~4.0.0-beta",
+    "bootstrap": "^4.0.0",
     "font-awesome": "~4.7.0",
     "jquery": "~3.2.1",
-    "laravel-mix": "^1.4.5",
+    "laravel-mix": "^1.7.2",
     "path": "^0.12.7",
-    "popper.js": "^1.12.5",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "popper.js": "^1.14.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
     "react-router-dom": "^4.2.2",
-    "reactstrap": "^5.0.0-alpha.4"
+    "reactstrap": "^5.0.0"
   },
   "devDependencies": {
     "babel-preset-react": "^6.24.1",
-    "browser-sync": "^2.18.13",
+    "browser-sync": "^2.24.4",
     "browser-sync-webpack-plugin": "^1.2.0",
-    "sass-lint": "^1.12.0"
+    "sass-lint": "^1.12.1"
   }
 }
