@@ -4,7 +4,7 @@ let path = require('path');
 mix.sass('src/scss/main.scss', 'dist/css/main.css')
    .react('src/index.jsx', 'dist/index.js')
    .browserSync({
-      proxy: 'silverstripefour.davidm.wgtn.cat-it.co.nz',
+      proxy: 'silverstripereact.davidm.wgtn.cat-it.co.nz',
       notify: true,
       open: 'local',
       files: [
