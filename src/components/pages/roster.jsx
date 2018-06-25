@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 const Roster = () => (
   <div>
-    <h1>Welcome to Roster</h1>
+    <h1>Roster</h1>
   </div>
-)
+);
 
-export default Roster
+export default Roster;
