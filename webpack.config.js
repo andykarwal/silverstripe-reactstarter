@@ -19,23 +19,17 @@ module.exports = {
     publicPath: "/"
   },
 
-  watchOptions: {
-    poll: true
-  },
-
   devServer: {
-    port: 8080,
-    hot: true,
-    inline: true,
-    contentBase: './src/**/*',
+    contentBase: './dist',
+    historyApiFallback: true,
     proxy: {
       '*': {
-        target: 'http://silverstripereact.davidm.wgtn.cat-it.co.nz',
+        path: /./,
+        target: 'http://silverstripe.davidm.wgtn.cat-it.co.nz',
         secure: false,
         changeOrigin: true
       }
-    },
-    historyApiFallback: true
+    }
   },
 
   node: {

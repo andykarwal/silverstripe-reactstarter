@@ -1,5 +1,7 @@
 {
   "name": "reactstarter",
+  "type": "silverstripe-theme",
+  "description": "An alternative default theme for SilverStripe.",
   "version": "1.0.0",
   "private": true,
   "author": "David Malone",
