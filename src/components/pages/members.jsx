@@ -30,7 +30,6 @@ class Test extends Component {
   }
 
   componentWillUnmount() {
-    this.serverRequest.abort();
   }
 
   render() {
