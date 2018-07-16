@@ -25,7 +25,7 @@ module.exports = {
     proxy: {
       '*': {
         path: /./,
-        target: 'http://silverstripe.davidm.wgtn.cat-it.co.nz',
+        target: 'http://silverstripereactstarter.davidm.wgtn.cat-it.co.nz',
         secure: false,
         changeOrigin: true
       }

@@ -9,6 +9,13 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
   </head>
   <body>
+    <%--
+    <% loop $Menu(1) %>
+      <a href="$Link">$Title</a>
+    <% end_loop %>
+    $Layout
+    --%>
+    $Layout
     <div id="root"></div>
     <script src="resources/themes/silverstripe-reactstarter/dist/js/bundle.js"></script>
   </body>
