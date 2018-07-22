@@ -15,11 +15,7 @@ class Test extends Component {
 
   componentDidMount() {
     axios
-      // http://silverstripereactstarter.davidm.wgtn.cat-it.co.nz/members/test
-      // .get("https://jsonplaceholder.typicode.com/users")
-
       .get("http://silverstripereactstarter.davidm.wgtn.cat-it.co.nz/home/members")
-
       .then(res => {
         const response = res.data;
         this.setState({ response });
@@ -37,6 +33,7 @@ class Test extends Component {
     console.log(this.state.response);
     return (
       <div>
+        <p>I am ajax requesting data directly from silverstripes members table :)</p>
         <table className="table">
           <thead>
             <tr>

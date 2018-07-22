@@ -15,7 +15,6 @@
     <% end_loop %>
     $Layout
     --%>
-    $Layout
     <div id="root"></div>
     <script src="resources/themes/silverstripe-reactstarter/dist/js/bundle.js"></script>
   </body>

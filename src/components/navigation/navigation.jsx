@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 
 import {
   Collapse,
@@ -15,9 +16,23 @@ class Navigation extends Component {
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      isOpen: false
+      isOpen: false,
+      response: []
     };
   }
+
+  componentDidMount() {
+    axios
+      .get("http://silverstripereactstarter.davidm.wgtn.cat-it.co.nz/home/navigation")
+      .then(res => {
+        const response = res.data;
+        this.setState({ response });
+      })
+      .catch(error => {
+        console.log('Error fetching and parsing data', error);
+      });
+  }
+
   toggle() {
     this.setState({
       isOpen: !this.state.isOpen
@@ -39,9 +54,6 @@ class Navigation extends Component {
               </NavItem>
               <NavItem>
                 <Link to='/members' className="nav-link">Members</Link>
-              </NavItem>
-              <NavItem>
-                <Link to='/roster' className="nav-link">Roster</Link>
               </NavItem>
             </Nav>
           </Collapse>
